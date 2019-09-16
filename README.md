@@ -1,10 +1,10 @@
 # ydk-js
 
-## Instructions:**
+## Instructions:
 ​
   ### Project Goal:
 ​
-    - Build Something Awesome
+Build Something Awesome
 ​
   ### Requirements:
 ​
@@ -26,4 +26,4 @@
 ​
   - [ ] Must be Deployed (GitHub Pages or Firebase)
 ​
-  - [X] Must have User Input Validation
+  - [ ] Must have User Input Validation
