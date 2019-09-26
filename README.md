@@ -26,4 +26,4 @@
 ​
   - [ ] Must be Deployed (GitHub Pages or Firebase)
 ​
-  - [X] Must have User Input Validation
+  - [ ] Must have User Input Validation

@@ -5,16 +5,74 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>ydk-js</title>
+
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
-    <title>ydk-js</title>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://opentdb.com/api.php?amount=25&category=18&difficulty=easy"></script>
+
 </head>
 
 <body>
-    <h1>YDK-JS</h1>
+    <div class="container">
+        <div class="jumbotron" style="background-color:  white">
+            <div class="main-header">
+                <h1 class="text-center">YDK-JS</h1>
+            </div>
+        </div>
+        <div class="row">
 
+            <div class="col-lg-3">
+                <div class="panel panel">
+                    <div class="panel-heading" style="background-color: white">
+                        <h3 class="panel-title text-center">You</h3>
+                    </div>
+                    <div class="panel-body text-center">
+                        <h2 id="yourScore"></h2>
+                        <p>000</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="panel panel">
+                    <div class="panel-heading" style="background-color: white">
+                        <h3 class="panel-title text-center">Class</h3>
+                    </div>
+                    <div class="panel-body text-center">
+                        <h2 id="classScore"></h2>
+                        <p>000</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="panel panel">
+                    <div class="panel-heading">
+                        <h3 class="panel-title text-center" style="background-color: rgb(221, 216, 216)">Instructions</h3>
+                    </div>
+                    <div class="panel-body">
+                        <p>Answer all of the questions to the best of your knowledge. You will receive a score upon completion. You may use this score to compare with other students. Good Luck!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="sub-container">
+            <button id="start">Start</button>
+        </div>
+        <div>
+            <p class="questions"></p>
+        </div>
+    </div>
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="javascript/app.js"></script>
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 </body>
 
 </html>
