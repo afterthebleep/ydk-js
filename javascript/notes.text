@@ -1,0 +1,8 @@
+//collect answers data may use serializeArray
+//tally data score
+//create firebase mock data in a seperate file 
+// practice firebase CRUD
+//create mock data to compare
+// compare students scores in firebase
+//render results onto UI w/ contact info of mock data
+//store mock data result person's email into a button to contact
